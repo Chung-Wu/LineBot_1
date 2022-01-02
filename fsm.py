@@ -123,7 +123,7 @@ class TocMachine(GraphMachine):
         return text.lower() == "menu"
         
     def on_enter_menu(self, event):
-
+        user.breads = []
         reply_token = event.reply_token
         message = graph.menu
         message_to_reply = FlexSendMessage("show the list", message)
