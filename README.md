@@ -10,16 +10,12 @@
 ![fsm](./fsm.png)
 
 ## Usage
-The initial state is set to `user`.
-
-Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
-
-* user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
-
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
+1. 輸入 menu 以進入第一個狀態，並得到簡單的操作介面
+2. 根據所選按鈕，能夠開始選購 麵包 或是 蛋糕
+3. 挑選完畢，隨時都能夠切換另一個購物清單 挑選 (麵包挑完 挑蛋糕等等)
+4. 或是能夠按下確定按鈕，以確認訂單，此時商家還不會收到訊息，或是輸入 menu 重新挑選
+5. 確認無誤後，手動輸入confirm (避免不小心點到送出按鈕等)
+6. 商家得到資訊，可以開始包裝
 
 ## Deploy
 Setting to deploy webhooks on Heroku.
