@@ -22,3 +22,8 @@
 ## 操作介面
 
 ![first](./img/S__4718876.jpg)
+![second](./img/S__4718879.jpg)
+
+
+店家得到的清單:
+![third](./img/messageImage_1641132568562.jpeg)
