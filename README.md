@@ -1,5 +1,3 @@
-## Setup
-
 ### Environment
 * Python 3.6
 * Pipenv
